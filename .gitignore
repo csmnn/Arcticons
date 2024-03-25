@@ -16,6 +16,12 @@ proguard/
 androidTest/
 test/
 mail/
+failedmails/
+**/you/res/drawable-anydpi/
+**/light/res/drawable-anydpi/
+**/dark/res/drawable-anydpi/
+**/dayNight/res/drawable-anydpi/
+**/dayNight/res/drawable-night-anydpi/
 
 .idea/
 .externalNativeBuild/
@@ -26,3 +32,8 @@ local.properties
 gradlew
 gradlew.bat
 .DS_Store
+bundletool.jar
+.keystore/keystore.pwd
+.keystore/arcticonskeystore.jks
+*.eml
+freedesktop-theme/arcticons*
